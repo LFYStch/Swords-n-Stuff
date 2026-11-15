@@ -1,11 +1,19 @@
 [gd_scene format=3 uid="uid://cqjuc2ijqrx51"]
 
-[ext_resource type="Texture2D" uid="uid://drfmx6jf3ny1w" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://c104qd18rgtcq" path="res://New Piskel-1.png (2).png" id="1_wtcfe"]
 
-[node name="Node2D" type="Node2D" unique_id=1194963694]
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=899561681]
-position = Vector2(406, 277)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_wtcfe")
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
 
-[node name="AnimationTree" type="AnimationTree" parent="." unique_id=571602811]
+[sub_resource type="TileSet" id="TileSet_c0aew"]
+sources/0 = SubResource("TileSetAtlasSource_0e48y")
+
+[node name="Node" type="Node" unique_id=76025288]
+
+[node name="TileMap" type="TileMap" parent="." unique_id=212752972]
+tile_set = SubResource("TileSet_c0aew")
+format = 2
