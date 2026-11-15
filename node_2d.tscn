@@ -1,8 +1,6 @@
 [gd_scene format=3 uid="uid://cqjuc2ijqrx51"]
 
-<<<<<<< HEAD
 [node name="Node2D" type="Node2D" unique_id=1194963694]
-=======
 [ext_resource type="Texture2D" uid="uid://c104qd18rgtcq" path="res://New Piskel-1.png (2).png" id="1_wtcfe"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
@@ -20,4 +18,7 @@ sources/0 = SubResource("TileSetAtlasSource_0e48y")
 [node name="TileMap" type="TileMap" parent="." unique_id=212752972]
 tile_set = SubResource("TileSet_c0aew")
 format = 2
+<<<<<<< HEAD
 >>>>>>> 82a25e9688a026f4ee0e00133010ddd671d654d3
+=======
+>>>>>>> edd140eed8ed01a81ea0674135471f24ed07ca53
