@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://mmm8cwjldxth"]
 
+[ext_resource type="Texture2D" uid="uid://061cbjft65f2" path="res://PlayereAnims/Walk/walk0000.png" id="1_ig7tw"]
+
 [node name="Node" type="Node" unique_id=421470400]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1284849683]
+position = Vector2(539, 270)
+texture = ExtResource("1_ig7tw")
